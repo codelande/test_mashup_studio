@@ -44,8 +44,8 @@ function App() {
         <Box flex={"column"} ml={"8px"}>
           {weather.time.map(
             (day, index) =>
-              index > 1 &&
-              index <= 4 && (
+              index > 0 &&
+              index <= 3 && (
                 <Box key={index} my={"8px"}>
                   <Card>
                     <CardContent sx={{ display: "flex", flexDirection: "row" }}>

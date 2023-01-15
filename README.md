@@ -1,1 +1,10 @@
 # test_mashup_studio
+
+Pour tester l'app :
+
+~ git clone le repo
+~ cd TEST_MASHUP_STUDIO
+~ npm run postinstall
+~ npm run golive
+
+ensuite visiter l'adresse : http://localhost:5173/
